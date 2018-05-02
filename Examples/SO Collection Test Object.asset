@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d216f1b3c496b104a93536a3ef19c89c, type: 3}
+  m_Name: SO Collection Test Object
+  m_EditorClassIdentifier: 
+  inventory:
+    collection:
+    - {fileID: 114019848709116346}
+    - {fileID: 114101348413501452}
+  characters:
+    collection:
+    - {fileID: 114268600023255162}
+    - {fileID: 114095442079213408}
+  stuff: 
+  numbers: 5
+--- !u!114 &114019848709116346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7368fc13c8c74646a169912bbb4cfee, type: 3}
+  m_Name: Thing A
+  m_EditorClassIdentifier: 
+  editMe: 
+--- !u!114 &114095442079213408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7368fc13c8c74646a169912bbb4cfee, type: 3}
+  m_Name: Bob
+  m_EditorClassIdentifier: 
+  editMe: 
+--- !u!114 &114101348413501452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7368fc13c8c74646a169912bbb4cfee, type: 3}
+  m_Name: Thing B
+  m_EditorClassIdentifier: 
+  editMe: 
+--- !u!114 &114268600023255162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7368fc13c8c74646a169912bbb4cfee, type: 3}
+  m_Name: Alice
+  m_EditorClassIdentifier: 
+  editMe: 
